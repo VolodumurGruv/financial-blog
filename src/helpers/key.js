@@ -1,3 +1,6 @@
-const key = () => Math.floor(Math.random() * (1000 - 1) + 1);
+const key = () => {
+	let count = 1;
+	return () => count++;
+};
 
-export default key;
+export default key();
