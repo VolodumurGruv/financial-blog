@@ -320,4 +320,4 @@ const mockData = [
 	},
 ];
 
-export default mockData;
+module.exports = mockData;
